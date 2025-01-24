@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bookshelf</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000000; /* Dark gray for a sleek look */
+      color: #ECF0F1; /* Light gray for text */
+      font-family: 'League Spartan', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #FFD700; /* Gold for the main heading */
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .year-section {
+      margin-bottom: 50px;
+    }
+
+    .book-year {
+      color: #FFFFFF; /* Gold for the year */
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .book-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .book-item {
+      background-color: #191818; /* Dark blue-gray for cards */
+      color: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .book-item:hover {
+      transform: scale(1.05);
+    }
+
+    /* Logo Styling */
+    .logo {
+      position: absolute;
+      top: 9px; /* Adjust spacing from the top */
+      left: 16px; /* Adjust spacing from the left */
+      width: 80px; /* Small size for the logo */
+      height: 80px;
+    }
+
+    .logo img {
+      width: 100%;
+      height: auto;
+    }
+
+    main {
+      padding-top: 50px; /* Reduced padding to bring content higher */
+    }
+  </style>
+</head>
+<body>
+  <!-- Small Logo -->
+  <div class="logo">
+    <a href="index.html">
+      <img src="Logo.png" alt="Bookshelf Logo"> <!-- Replace 'Logo.png' with the path to your logo -->
+    </a>
+  </div>
+
+  <main>
+    <section class="year-section">
+      <h2 class="book-year">2025</h2>
+      <div class="book-grid">
+        <div class="book-item">Fooled by Randomness by Nassim Nicholas Taleb</div>
+        <div class="book-item">Bhagavad Gita</div>
+      </div>
+    </section>
+
+    <section class="year-section">
+      <h2 class="book-year">2024</h2>
+      <div class="book-grid">
+        <div class="book-item">Principles by Ray Dalio</div>
+        <div class="book-item">Mastery by Robert Greene</div>
+        <div class="book-item">The Almanack of Naval Ravikant by Eric Jorgenson</div>
+        <div class="book-item">Thinking Fast & Slow by Daniel Kahneman</div>
+        <div class="book-item">Richistan by Robert Frank</div>
+        <div class="book-item">The Gospel of Wealth by Andrew Carnegie</div>
+        <div class="book-item">1984 by George Orwell</div>
+      </div>
+    </section>
+
+    <section class="year-section">
+      <h2 class="book-year">2023</h2>
+      <div class="book-grid">
+        <div class="book-item">The 7 Habits of Highly Effective People</div>
+        <div class="book-item">Factfulness by Hans Rosling</div>
+        <div class="book-item">Zero to One by Peter Thiel</div>
+        <div class="book-item">Atomic Habits by James Clear</div>
+        <div class="book-item">Moneyball by Michael Lewis</div>
+        <div class="book-item">The Test of My Life by Yuvraj Singh</div>
+        <div class="book-item">The Monk Who Sold His Ferrari by Robin Sharma</div>
+        <div class="book-item">The Intelligent Investor by Benjamin Graham</div>
+        <div class="book-item">Shoe Dog by Phil Knight</div>
+              </div>
+    </section>
+  </main>
+</body>
+</html>
+
+

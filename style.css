@@ -1,0 +1,59 @@
+<style>
+  /* Global Styling for Text and Background */
+  body {
+    background-color: black; /* Set background to black */
+    color: white; /* Set all text to white */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #333; /* Dark background for header */
+  }
+  header nav a {
+    color: white; /* White color for navigation links */
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  header nav a:hover {
+    color: gray; /* Gray hover effect */
+  }
+        main {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  h1 {
+    font-size: 3rem;
+    color: white; /* White title */
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  .interests {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .interests h2 {
+    font-size: 1.5rem;
+    color: white; /* White heading for interests */
+    margin-bottom: 10px;
+  }
+  .interests ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .interests ul li {
+    font-size: 1.2rem;
+    color: white; /* White text for list items */
+    margin: 5px 0;
+  }
+</style>
+
