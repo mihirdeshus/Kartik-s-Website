@@ -76,6 +76,10 @@
       font-size: 1.6rem;
       border-radius: 8px;
       transition: background-color 0.3s ease, transform 0.3s ease, text-align 0.3s ease;
+      white-space: normal;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      line-height: 1.4;
     }
 
     .dropdown:hover {
@@ -101,6 +105,58 @@
     .centered {
       text-align: center;
     }
+
+    /* Add responsive styling */
+    @media screen and (max-width: 768px) {
+      body {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        margin-left: 0;
+        text-align: center;
+      }
+
+      section {
+        margin-left: 0;
+      }
+
+      .logo {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 auto 20px;
+        display: block;
+      }
+
+      main {
+        padding: 10px;
+      }
+
+      .dropdown {
+        font-size: 1.4rem;
+      }
+
+      .content {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      body {
+        padding: 20px 15px;
+      }
+
+      .dropdown {
+        font-size: 1.2rem;
+        padding: 10px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+      }
+    }
   </style>
 </head>
 <body>
@@ -118,7 +174,7 @@
   </section>
   <main>
     <div class="dropdown" onclick="toggleContent('essay1')">
-      LIFE’S ASYMMETRIC RETURNS 
+      LIFE'S ASYMMETRIC RETURNS
     </div>
     <div id="essay1" class="content">
       <p>
@@ -142,7 +198,7 @@
     </div>
 
     <div class="dropdown" onclick="toggleContent('essay2')">
-      NISHKAM KARMA 
+      NISHKAM KARMA - THE PHILOSOPHY OF DETACHED ACTION
     </div>
     <div id="essay2" class="content">
       <p>
@@ -166,7 +222,7 @@
     </div>
 
     <div class="dropdown" onclick="toggleContent('essay3')">
-     THE HIDDEN POWER OF YOUR FIRST PRINCIPLES 
+      THE HIDDEN POWER OF YOUR FIRST PRINCIPLES
     </div>
     <div id="essay3" class="content">
       <p>
@@ -187,7 +243,7 @@
     </div>
 
     <div class="dropdown" onclick="toggleContent('essay4')">
-      SPORTS: LIFE BEYOND HEALTH 
+      SPORTS: LIFE BEYOND HEALTH
     </div>
     <div id="essay4" class="content">
       <p>
@@ -228,6 +284,3 @@
 
 </body>
 </html>
-
-
-
