@@ -76,10 +76,6 @@
       font-size: 1.6rem;
       border-radius: 8px;
       transition: background-color 0.3s ease, transform 0.3s ease, text-align 0.3s ease;
-      white-space: normal;
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      line-height: 1.4;
     }
 
     .dropdown:hover {
@@ -105,58 +101,6 @@
     .centered {
       text-align: center;
     }
-
-    /* Add responsive styling */
-    @media screen and (max-width: 768px) {
-      body {
-        padding: 30px 20px;
-      }
-
-      h1 {
-        margin-left: 0;
-        text-align: center;
-      }
-
-      section {
-        margin-left: 0;
-      }
-
-      .logo {
-        position: relative;
-        top: 0;
-        left: 0;
-        margin: 0 auto 20px;
-        display: block;
-      }
-
-      main {
-        padding: 10px;
-      }
-
-      .dropdown {
-        font-size: 1.4rem;
-      }
-
-      .content {
-        font-size: 1.1rem;
-      }
-    }
-
-    @media screen and (max-width: 480px) {
-      body {
-        padding: 20px 15px;
-      }
-
-      .dropdown {
-        font-size: 1.2rem;
-        padding: 10px;
-      }
-
-      p {
-        font-size: 1.1rem;
-        line-height: 1.4;
-      }
-    }
   </style>
 </head>
 <body>
@@ -166,15 +110,9 @@
     </a>
   </div>
 
-  <h1>TOPICS I PLAN TO EXPLORE IN MY ESSAYS:</h1>
-  <section>
-    <p>→ ECONOMICS, FINANCE & ANALYTICAL CONCEPTS</p>
-    <p>→ PHILOSOPHICAL PRINCIPLES & STRATEGIC THINKING</p>
-    <p>→ GENERAL LIFE LEARNINGS</p>
-  </section>
   <main>
-      <div class="dropdown" onclick="toggleContent('essay2')">
-      NISHKAM KARMA - THE PHILOSOPHY OF DETACHED ATTACHMENT
+    <div class="dropdown" onclick="toggleContent('essay2')">
+      NISHKAM KARMA 
     </div>
     <div id="essay2" class="content">
       <p>
@@ -198,48 +136,25 @@
     </div>
 
     <div class="dropdown" onclick="toggleContent('essay3')">
-      THE HIDDEN POWER OF YOUR FIRST PRINCIPLES
+     DO WE REALLY CONTROL OUR THOUGHTS?
     </div>
     <div id="essay3" class="content">
       <p>
-        In an era marked by rapid technological advancements and complex global challenges, adhering to first principles—the fundamental truths that serve as the foundation for our beliefs and actions—has become important.
+        Have you ever tried to stop thinking about something? From a song stuck in your mind, to that one person you can't stop forgetting about, or an embarrassing moment from years ago suddenly popping up in the middle of work, we can never silence thoughts in our heads. But the question remains, how much can we control our thoughts?
       </p>
       <p>
-        First principles thinking is about breaking down complex problems into their simplest components. It’s not about overthinking—it’s about thinking right. When questioning the high costs associated with traditional rockets, Elon Musk identified that raw materials constituted only a fraction of the expenses. From this fundamental insight, SpaceX was born, and space exploration started sounding less like science fiction and more like a viable industry.
+        Philosophy 101 at uni gave me a pathway back to my shower thoughts I had as an 8 year old, all of these questions I had in mind that time can actually be answered by the depths of this subject.
       </p>
       <p>
-        When students may be buried in academic pressure, feeling overwhelmed. Instead of trying to memorize every single detail, you take a first-principles approach: Why am I studying? To understand the core concepts that will likely show up on the test. You strip it down to the basics, identify key topics, and focus your energy on mastering them. Suddenly, the workload feels manageable, and you’re actually learning instead of just cramming.
+        Descartes said “I think therefore I am”, which means that the act of thinking itself is the proof of existence, implies that we do have control over our thoughts. But if you look at the Eastern philosophies like Buddhism, they view thoughts like clouds passing in the sky, you don’t control them—you just notice them floating by. This sounds realistic since half the time we are not even sure where our thoughts come from. Around 95% of our brain activity happens unconsciously, explaining why the most random memories hit you in the shower. So, do we control thoughts… or just nudge them?
       </p>
       <p>
-        Strict adherence to first principles can lead to rigidity, but it is essential to recognize that these principles are not constraints but foundational guidelines. In workouts, pushups and pullups exemplify how basics provide a foundation; mastering them ensures flexibility and adaptability for more advanced routines. First principles ensure that decisions remain grounded in fundamental truths while accommodating necessary adjustments.
+        I’ve learned that fighting thoughts make them louder, accepting them–or even welcoming them–makes them quieter. We're not the dictators of our minds, but we're not completely powerless either. The brain is flexible–neuroplasticity is the term for it. You can't silence every thought, but you can choose which ones deserve your attention.
       </p>
       <p>
-        Sticking to first principles is about reclaiming the art of thoughtful decision-making. It’s not flashy, it’s not trendy, but it works. And in a world drowning in noise, isn’t that exactly what we need?
+        So no, I don’t think we completely control our thoughts. But that doesn’t mean we’re powerless. It’s more like we’re gardeners—not dictators. We don't have an absolute control over our thoughts. But we do have agency in how we respond to them, how we relate to them, and what we choose to cultivate in our minds over time.
       </p>
     </div>
-
-    <div class="dropdown" onclick="toggleContent('essay4')">
-      SPORTS: LIFE BEYOND HEALTH
-    </div>
-    <div id="essay4" class="content">
-      <p>
-        Growing up, playing sports has taught me just as much as my academics- perhaps even more. Over time, I’ve realized that sports are not just about improving health or serving as mindless entertainment for those Sunday evenings. It is beyond what we can see, sports are the unsung professors of life, teaching you lessons that no classroom can match—discipline, decision-making, and a nuanced perspective on life.
-      </p>
-      <p>
-        Sports boost your analytical skills by forcing you to anticipate your opponent’s next move while optimizing your own—within mere seconds. Take squash, for instance. I’ve learned to analyze the ball’s trajectory, calculate the distance between it and me, and simultaneously gauge where my opponent is standing only so that I can hit the ball at the right place of the court so that they miss it. All this mental math happens faster than you can say "game point.". And this reflexive decision-making spills over into life, where you often need to think on your feet—like when you’re caught in traffic with two minutes to make it to an exam.
-      </p>
-      <p>
-        Playing and watching sports has also taught me an invaluable life hack: you don’t have to be the best at everything, just better than most. Life is, after all, a game of averages. Why stress about acing every competition when you can focus on simply outdoing the person next to you? So now, whenever I encounter competition, I smile inwardly, reminding myself that my only goal is to edge ahead—not dominate. It’s efficient, it’s realistic, and it saves a ton of mental energy.
-      </p>
-      <p>
-        Sports also give you an identity, a badge of honor you can proudly wear—because, "I’m good at sports" sounds much cooler than "I’m the kid who never misses a deadline." It becomes part of your story, something that makes you stand out. It shows the world you’ve been consistent at something (even if it’s just chasing a ball). People look at you and think, Wow, this person must be hardworking. Or at the very least, Well, they’re persistent enough to not quit after losing their first game.
-      </p>
-      <p>
-        Sports leave an indelible mark on your life by teaching you to navigate its unpredictable twists and turns. Life is full of peaks and valleys, wins and losses. At your highs, sports teach you to celebrate—but not too much; humility is key. At your lows, they remind you that it’s just a phase. Virat Kohli, who went two years without a century (an eternity for cricket fans). He detached, took a break, and focused on himself—only to come back and silence his critics with a glorious century. "When the fishermen can’t go to sea, they repair their nets." So when life doesn’t go your way—be it in business, relationships, or anything else—just focus on yourself. Eventually, the tide will turn, and you’ll find your rhythm again. And that is not something academics, but only sports can teach you.
-      </p>
-    </div>
-
-  </main>
 
   <script>
     function toggleContent(contentId, element) {
@@ -261,3 +176,6 @@
 
 </body>
 </html>
+
+
+
